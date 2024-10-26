@@ -1,0 +1,117 @@
+TBC MODULE PSEUDOCODE 
+
+import random module
+
+define new function for main
+
+make fight function for character and monster to fight
+
+character and monster fight
+
+if monster dies print character wins
+
+if character dies print monster wins
+
+end game
+
+Create new object called Character
+
+create Character name
+
+Character properties
+
+Property for Character called hitPoints, must be an integer, can be negative, no maximum or minimum value 
+
+Property for Character called hitChance, percent chance a hit will land, must be an integer, cannot be negative, must be between 0 and 100
+
+Property for Character called maxDamage, must be an integer, cannot be negative, no maximum or minimum value
+
+Property for Character called armor, must be an integer, cannot be negative, no max or min value
+
+function to print character stats
+
+Print character properties
+
+print character name 
+
+print hitPoints integer
+
+print hitChance percentage
+
+print maxDamage integer
+
+print armor integer
+
+function for characters to hit eachother
+
+Successful hit is based on character hitChance
+
+print character hit lands if hit is successful
+
+damage is random integer between 1 and maxDamage
+
+totalDamage is damage - armor
+
+hitPoints is hitPoints - totalDamage
+
+otherwise print hit missed
+
+COMBAT.PY PSEUDOCODE
+
+import tbc module 
+
+define new function for main
+
+guy gets tbc.character
+
+guy name is strongguy
+
+guy hitPoints is 30
+
+guy hitChance is 70
+
+guy maxDamage is 10
+
+guy armor is 4
+
+monster gets tbc.character
+
+monster hitPoints is 50
+
+monster hitChance is 20
+
+monster maxDamage is 12
+
+monster armor is 1
+
+print stats for guy
+
+print stats for monster
+
+run fight from tbc module
+
+if name is main, call main function to start game
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
